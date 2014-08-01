@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<html>
+  <head>
+    <title>Template</title>
+    <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+    <%= render 'layouts/header' %>
+    <%= yield %>
+    <%= render 'layouts/footer' %>
+    <script type="text/javascript">
+    jQuery(window).load(function() {
+    // alert(" imagenes esta listas ");
+    //  console.log( " eeeeeestaaaalisstaaa las imagenes :)ready!" );
+    App.init();
+    PortfolioPage.init();
+    Index.initParallaxSlider();
+    });
+    </script>
+    <!--[if lt IE 9]>
+    <script src="assets/plugins/respond.js"></script>
+    <![endif]-->
+  </body>
+</html>

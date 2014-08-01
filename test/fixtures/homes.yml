@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  logo: MyString
+  slider: MyString
+  AcercaDeNosotros: MyString
+  telefono: 1
+  fax: 1
+  email: MyString
+
+two:
+  logo: MyString
+  slider: MyString
+  AcercaDeNosotros: MyString
+  telefono: 1
+  fax: 1
+  email: MyString
