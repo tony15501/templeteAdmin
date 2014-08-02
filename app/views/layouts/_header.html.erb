@@ -1,10 +1,10 @@
 <div class="wrapper">
-    &lt;!--=== Header ===--&gt;
+    <!--=== Header ===-->
     <div class="header">
-        &lt;!-- Topbar --&gt;
+        <!-- Topbar -->
         <div class="topbar">
             <div class="container">
-                &lt;!-- Topbar Navigation --&gt;
+                <!-- Topbar Navigation -->
                 <ul class="loginbar pull-right">
                     <li>
                         <i class="fa fa-globe"></i>
@@ -21,24 +21,24 @@
                     <li class="topbar-devider"></li>
                     <li><a href="page_faq.html">Help</a></li>
                     <li class="topbar-devider"></li>
-                    <li>&lt;%= link_to " LOGIN ADMIN", "/admin" %&gt;</li>
+                    <li><%= link_to " LOGIN ADMIN", "/admin" %></li>
                     
-                    &lt;% if params[:controller]=="devise/sessions"%&gt;
+                    <% if params[:controller]=="devise/sessions"%>
                     <li class="topbar-devider"></li>
-                    <li>&lt;%= link_to "Back Home", root_path  %&gt; </li>
-                    &lt;% end %&gt;
+                    <li><%= link_to "Back Home", root_path  %> </li>
+                    <% end %>
                     
                     
                 </ul>
-                &lt;!-- End Topbar Navigation --&gt;
+                <!-- End Topbar Navigation -->
             </div>
         </div>
-        &lt;!-- End Topbar --&gt;
+        <!-- End Topbar -->
         
-        &lt;!-- Navbar --&gt;
+        <!-- Navbar -->
         <div class="navbar navbar-default" role="navigation">
             <div class="container">
-                &lt;!-- Brand and toggle get grouped for better mobile display --&gt;
+                <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
                     <span class="sr-only">Toggle navigation</span>
@@ -46,16 +46,16 @@
                     </button>
                     <a class="navbar-brand" href="index.html">
                         
-                        <img id="logo-header" src="&lt;%= logo %&gt;" alt="Logo">
+                        <img id="logo-header" src="<%= logo %>" alt="Logo">
                     </a>
                 </div>
-                &lt;!-- Collect the nav links, forms, and other content for toggling --&gt;
+                <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse navbar-responsive-collapse">
                     <ul class="nav navbar-nav">
-                        &lt;!-- Home --&gt;
+                        <!-- Home -->
                         <li class="dropdown active">
                             <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
-                                Home &lt;!-- &lt;li&gt; &lt;%= link_to 'Home', new_user_session_path %&gt;&lt;/li&gt; --&gt;
+                                Home <!-- <li> <%= link_to 'Home', new_user_session_path %></li> -->
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a href="index.html">Option 1: Default Page</a></li>
@@ -74,14 +74,14 @@
                                 <li><a href="page_home10.html">Option 14: Home Fixed Menu</a></li>
                             </ul>
                         </li>
-                        &lt;!-- End Home --&gt;
-                        &lt;!-- Pages --&gt;
+                        <!-- End Home -->
+                        <!-- Pages -->
                         <li class="dropdown">
                             <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
                                 Pages
                             </a>
                             <ul class="dropdown-menu">
-                                &lt;!-- About Pages --&gt;
+                                <!-- About Pages -->
                                 <li class="dropdown-submenu">
                                     <a href="javascript:void(0);">About Pages</a>
                                     <ul class="dropdown-menu">
@@ -91,8 +91,8 @@
                                         <li><a href="page_about_our_team.html">About Our Team</a></li>
                                     </ul>
                                 </li>
-                                &lt;!-- End About Pages --&gt;
-                                &lt;!-- Profile Pages --&gt;
+                                <!-- End About Pages -->
+                                <!-- Profile Pages -->
                                 <li class="dropdown-submenu">
                                     <a href="javascript:void(0);">Profile Dashboard Pages</a>
                                     <ul class="dropdown-menu">
@@ -105,8 +105,8 @@
                                         <li><a href="profile_settings.html">Profile Settings</a></li>
                                     </ul>
                                 </li>
-                                &lt;!-- End Profile Pages --&gt;
-                                &lt;!-- Job Pages --&gt;
+                                <!-- End Profile Pages -->
+                                <!-- Job Pages -->
                                 <li class="dropdown-submenu">
                                     <a href="javascript:void(0);">Job Pages</a>
                                     <ul class="dropdown-menu">
@@ -116,8 +116,8 @@
                                         <li><a href="page_jobs_inner2.html">Jobs Description Min</a></li>
                                     </ul>
                                 </li>
-                                &lt;!-- End Job Pages --&gt;
-                                &lt;!-- Email Tempaltes --&gt;
+                                <!-- End Job Pages -->
+                                <!-- Email Tempaltes -->
                                 <li class="dropdown-submenu">
                                     <a href="javascript:void(0);">Email Templates</a>
                                     <ul class="dropdown-menu">
@@ -175,11 +175,11 @@
                                         <li><a href="page_services1.html">Our Services Basic</a></li>
                                     </ul>
                                 </li>
-                                &lt;!-- End Email Tempaltes --&gt;
-                                &lt;!-- Funny Boxes --&gt;
+                                <!-- End Email Tempaltes -->
+                                <!-- Funny Boxes -->
                                 <li><a href="page_funny_boxes.html">Funny Boxes</a></li>
-                                &lt;!-- End Funny Boxes --&gt;
-                                &lt;!-- Pricing Tables --&gt;
+                                <!-- End Funny Boxes -->
+                                <!-- Pricing Tables -->
                                 <li class="dropdown-submenu">
                                     <a href="javascript:void(0);">Pricing Tables</a>
                                     <ul class="dropdown-menu">
@@ -189,11 +189,11 @@
                                         <li><a href="page_pricing.html">Default Pricing Tables</a></li>
                                     </ul>
                                 </li>
-                                &lt;!-- End Pricing Tables --&gt;
-                                &lt;!-- Invoice Page --&gt;
+                                <!-- End Pricing Tables -->
+                                <!-- Invoice Page -->
                                 <li><a href="page_invoice.html">Invoice Page</a></li>
-                                &lt;!-- End Invoice Page --&gt;
-                                &lt;!-- Search Results --&gt;
+                                <!-- End Invoice Page -->
+                                <!-- Search Results -->
                                 <li class="dropdown-submenu">
                                     <a href="javascript:void(0);">Search Results</a>
                                     <ul class="dropdown-menu">
@@ -201,11 +201,11 @@
                                         <li><a href="page_search_table.html">Search Result Tables</a></li>
                                     </ul>
                                 </li>
-                                &lt;!-- End Search Results --&gt;
-                                &lt;!-- Coming Soon --&gt;
+                                <!-- End Search Results -->
+                                <!-- Coming Soon -->
                                 <li><a href="page_coming_soon.html">Coming Soon</a></li>
-                                &lt;!-- End Coming Soon --&gt;
-                                &lt;!-- FAQs Pages --&gt;
+                                <!-- End Coming Soon -->
+                                <!-- FAQs Pages -->
                                 <li class="dropdown-submenu">
                                     <a href="javascript:void(0);">FAQs Pages</a>
                                     <ul class="dropdown-menu">
@@ -213,11 +213,11 @@
                                         <li><a href="page_faq.html">FAQs Basic</a></li>
                                     </ul>
                                 </li>
-                                &lt;!-- End FAQs Pages --&gt;
-                                &lt;!-- Gallery Page --&gt;
+                                <!-- End FAQs Pages -->
+                                <!-- Gallery Page -->
                                 <li><a href="page_gallery.html">Gallery Page</a></li>
-                                &lt;!-- End Gallery Page --&gt;
-                                &lt;!-- Login and Registration --&gt;
+                                <!-- End Gallery Page -->
+                                <!-- Login and Registration -->
                                 <li class="dropdown-submenu">
                                     <a href="javascript:void(0);">Login and Registration</a>
                                     <ul class="dropdown-menu">
@@ -227,8 +227,8 @@
                                         <li><a href="page_login1.html">Login Option</a></li>
                                     </ul>
                                 </li>
-                                &lt;!-- End Login and Registration --&gt;
-                                &lt;!-- Error Pages --&gt;
+                                <!-- End Login and Registration -->
+                                <!-- Error Pages -->
                                 <li class="dropdown-submenu">
                                     <a href="javascript:void(0);">Error Pages</a>
                                     <ul class="dropdown-menu">
@@ -238,11 +238,11 @@
                                         <li><a href="page_404_error3.html">404 Error Option 3</a></li>
                                     </ul>
                                 </li>
-                                &lt;!-- End Error Pages --&gt;
-                                &lt;!-- Clients Page --&gt;
+                                <!-- End Error Pages -->
+                                <!-- Clients Page -->
                                 <li><a href="page_clients.html">Clients Page</a></li>
-                                &lt;!-- End Clients Page --&gt;
-                                &lt;!-- Column Pages --&gt;
+                                <!-- End Clients Page -->
+                                <!-- Column Pages -->
                                 <li class="dropdown-submenu">
                                     <a href="javascript:void(0);">Column Pages</a>
                                     <ul class="dropdown-menu">
@@ -251,23 +251,23 @@
                                         <li><a href="page_3_columns.html">3 Columns Page</a></li>
                                     </ul>
                                 </li>
-                                &lt;!-- End Column Pages --&gt;
-                                &lt;!-- Privacy Policy --&gt;
+                                <!-- End Column Pages -->
+                                <!-- Privacy Policy -->
                                 <li><a href="page_privacy.html">Privacy Policy</a></li>
-                                &lt;!-- End Privacy Policy --&gt;
-                                &lt;!-- Terms Of Service --&gt;
+                                <!-- End Privacy Policy -->
+                                <!-- Terms Of Service -->
                                 <li><a href="page_terms.html">Terms Of Service</a></li>
-                                &lt;!-- End Terms Of Service --&gt;
+                                <!-- End Terms Of Service -->
                             </ul>
                         </li>
-                        &lt;!-- End Pages --&gt;
-                        &lt;!-- Features --&gt;
+                        <!-- End Pages -->
+                        <!-- Features -->
                         <li class="dropdown">
                             <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
                                 Features
                             </a>
                             <ul class="dropdown-menu">
-                                &lt;!-- Typography --&gt;
+                                <!-- Typography -->
                                 <li class="dropdown-submenu">
                                     <a href="javascript:void(0);">Typography</a>
                                     <ul class="dropdown-menu">
@@ -281,8 +281,8 @@
                                         <li><a href="feature_typo_grid.html"><i class="fa fa-align-justify"></i> Grid Layouts</a></li>
                                     </ul>
                                 </li>
-                                &lt;!-- End Typography --&gt;
-                                &lt;!-- Buttons --&gt;
+                                <!-- End Typography -->
+                                <!-- Buttons -->
                                 <li class="dropdown-submenu">
                                     <a href="javascript:void(0);">Buttons UI</a>
                                     <ul class="dropdown-menu">
@@ -291,8 +291,8 @@
                                         <li><a href="feature_btn_effects.html"><i class="fa fa-bolt"></i> Loading &amp; Hover Effects</a></li>
                                     </ul>
                                 </li>
-                                &lt;!-- End Buttons --&gt;
-                                &lt;!-- Icons --&gt;
+                                <!-- End Buttons -->
+                                <!-- Icons -->
                                 <li class="dropdown-submenu">
                                     <a href="javascript:void(0);">Icons</a>
                                     <ul class="dropdown-menu">
@@ -302,8 +302,8 @@
                                         <li><a href="feature_icon_glyph.html"><i class="fa fa-chevron-circle-right"></i> Glyphicons Icons</a></li>
                                     </ul>
                                 </li>
-                                &lt;!-- End Icons --&gt;
-                                &lt;!-- Content Boxes --&gt;
+                                <!-- End Icons -->
+                                <!-- Content Boxes -->
                                 <li class="dropdown-submenu">
                                     <a href="javascript:void(0);">Content Boxes</a>
                                     <ul class="dropdown-menu">
@@ -312,11 +312,11 @@
                                         <li><a href="feature_box_funny.html"><i class="fa fa-bars"></i> Funny Boxes</a></li>
                                     </ul>
                                 </li>
-                                &lt;!-- End Content Boxes --&gt;
-                                &lt;!-- Thumbnails --&gt;
+                                <!-- End Content Boxes -->
+                                <!-- Thumbnails -->
                                 <li><a href="feature_thumbails.html">Thumbnails</a></li>
-                                &lt;!-- End Thumbnails --&gt;
-                                &lt;!-- Components --&gt;
+                                <!-- End Thumbnails -->
+                                <!-- Components -->
                                 <li class="dropdown-submenu">
                                     <a href="javascript:void(0);">Components</a>
                                     <ul class="dropdown-menu">
@@ -328,11 +328,11 @@
                                         <li><a href="feature_compo_pagination.html"><i class="fa fa-arrows-h"></i> Paginations</a></li>
                                     </ul>
                                 </li>
-                                &lt;!-- End Components --&gt;
-                                &lt;!-- Accordion and Tabs --&gt;
+                                <!-- End Components -->
+                                <!-- Accordion and Tabs -->
                                 <li><a href="feature_accordion_and_tabs.html">Accordion &amp; Tabs</a></li>
-                                &lt;!-- End Accordion and Tabs --&gt;
-                                &lt;!-- Timeline --&gt;
+                                <!-- End Accordion and Tabs -->
+                                <!-- Timeline -->
                                 <li class="dropdown-submenu">
                                     <a href="javascript:void(0);">Timeline</a>
                                     <ul class="dropdown-menu">
@@ -340,11 +340,11 @@
                                         <li><a href="feature_timeline2.html"><i class="fa fa-dot-circle-o"></i> Timeline Option 2</a></li>
                                     </ul>
                                 </li>
-                                &lt;!-- End Timeline --&gt;
-                                &lt;!-- Carousel --&gt;
+                                <!-- End Timeline -->
+                                <!-- Carousel -->
                                 <li><a href="feature_carousels.html">Carousel Examples</a></li>
-                                &lt;!-- End Carousel --&gt;
-                                &lt;!-- Forms --&gt;
+                                <!-- End Carousel -->
+                                <!-- Forms -->
                                 <li class="dropdown-submenu">
                                     <a href="javascript:void(0);">Forms</a>
                                     <ul class="dropdown-menu">
@@ -358,11 +358,11 @@
                                         <li><a href="feature_form_modals.html"><i class="fa fa-bars"></i> Modals</a></li>
                                     </ul>
                                 </li>
-                                &lt;!-- End Forms --&gt;
-                                &lt;!-- Tables --&gt;
+                                <!-- End Forms -->
+                                <!-- Tables -->
                                 <li><a href="feature_table_general.html">Tables</a></li>
-                                &lt;!-- End Tables --&gt;
-                                &lt;!-- Maps --&gt;
+                                <!-- End Tables -->
+                                <!-- Maps -->
                                 <li class="dropdown-submenu">
                                     <a href="javascript:void(0);">Maps</a>
                                     <ul class="dropdown-menu">
@@ -370,11 +370,11 @@
                                         <li><a href="feature_maps_vector.html"><i class="fa fa-align-center"></i> Vector Maps</a></li>
                                     </ul>
                                 </li>
-                                &lt;!-- End Maps --&gt;
-                                &lt;!-- Charts and Countdowns --&gt;
+                                <!-- End Maps -->
+                                <!-- Charts and Countdowns -->
                                 <li><a href="feature_compo_charts.html">Charts &amp; Countdowns</a></li>
-                                &lt;!-- End Charts and Countdowns --&gt;
-                                &lt;!-- Sub Level Menu --&gt;
+                                <!-- End Charts and Countdowns -->
+                                <!-- Sub Level Menu -->
                                 <li class="dropdown-submenu">
                                     <a href="javascript:void(0);">Sub Level 1</a>
                                     <ul class="dropdown-menu">
@@ -399,11 +399,11 @@
                                         </li>
                                     </ul>
                                 </li>
-                                &lt;!-- End Sub Level Menu --&gt;
+                                <!-- End Sub Level Menu -->
                             </ul>
                         </li>
-                        &lt;!-- End Features --&gt;
-                        &lt;!-- Portfolio --&gt;
+                        <!-- End Features -->
+                        <!-- Portfolio -->
                         <li class="dropdown">
                             <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
                                 Portfolio
@@ -417,8 +417,8 @@
                                 <li><a href="portfolio_item1.html">Portfolio Item Option 2</a></li>
                             </ul>
                         </li>
-                        &lt;!-- Ens Portfolio --&gt;
-                        &lt;!-- Blog --&gt;
+                        <!-- Ens Portfolio -->
+                        <!-- Blog -->
                         <li class="dropdown">
                             <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
                                 Blog
@@ -436,8 +436,8 @@
                                 <li><a href="blog_item_option2.html">Blog Item Option 2</a></li>
                             </ul>
                         </li>
-                        &lt;!-- End Blog --&gt;
-                        &lt;!-- Contacts --&gt;
+                        <!-- End Blog -->
+                        <!-- Contacts -->
                         <li class="dropdown">
                             <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
                                 Contacts
@@ -448,8 +448,8 @@
                                 <li><a href="page_contact3.html">Contacts Option 2</a></li>
                             </ul>
                         </li>
-                        &lt;!-- End Contacts --&gt;
-                        &lt;!-- Search Block --&gt;
+                        <!-- End Contacts -->
+                        <!-- Search Block -->
                         <li>
                             <i class="search fa fa-search search-btn"></i>
                             <div class="search-open">
@@ -461,11 +461,11 @@
                                 </div>
                             </div>
                         </li>
-                        &lt;!-- End Search Block --&gt;
+                        <!-- End Search Block -->
                     </ul>
-                </div>&lt;!--/navbar-collapse--&gt;
+                </div><!--/navbar-collapse-->
             </div>
         </div>
-        &lt;!-- End Navbar --&gt;
+        <!-- End Navbar -->
     </div>
-    &lt;!--=== End Header ===--&gt;
+    <!--=== End Header ===-->
