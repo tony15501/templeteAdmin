@@ -1,4 +1,6 @@
+
 source 'https://rubygems.org'
+gem 'json'
 
 #WYSIWYG
 gem 'bootstrap-wysihtml5-rails', '0.3.1.24'
